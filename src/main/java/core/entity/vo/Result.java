@@ -17,7 +17,7 @@ import java.time.ZonedDateTime;
 public class Result<T> {
 
     public static final String SUCCESSFUL_CODE = "000000";
-    public static final String SUCCESSFUL_MESG = "处理成功";
+    public static final String SUCCESSFUL_MESG = "SUCCESS";
 
     @ApiModelProperty(value = "处理结果code", required = true)
     private String code;
